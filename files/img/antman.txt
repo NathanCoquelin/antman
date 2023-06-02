@@ -1,0 +1,7 @@
+@P3
+@# Created by GIMP version 2.10.20 PNM plug-in
+@# hello
+@# world
+@# test
+@300 300
+@n270001

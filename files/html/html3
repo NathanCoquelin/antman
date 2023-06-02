@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html><head><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: #181a1b;
+}
+html, body {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #454a4d #202324;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Epitech Intra</title>
+	<script async="" src="Epitech%20Intra_files/analytics.js"></script><script type="text/javascript" src="Epitech%20Intra_files/location.js"></script><meta name="darkreader" content="46f601614c9c47d795a28cc07536f8ea"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+<script type="text/javascript" src="Epitech%20Intra_files/preference.js"></script>
+<script type="text/javascript" src="Epitech%20Intra_files/fr.js"></script>
+<script type="text/javascript" src="Epitech%20Intra_files/script.js"></script><style type="text/css">.helpbox			{ display:inline }.helpbox .shadow	{ display:block; position:absolute; z-index:10000000 }.helpbox .shadow .arrow{ display:block; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAGCAYAAAAVMmT4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGBJREFUeNpiVFVVZUADIkDcAcRrgHgHsgQLAyZIAWJbIJYE4tNA/BYmwYSm0B2IY6FsFSCuRFaDrFgZiKvQbPMF4mh0xexQhRJYnJUHxPowxcxQARsG7IAPiFuBWAYgwAD4WAoN4NV/RwAAAABJRU5ErkJggg==) no-repeat; height:6px; margin:0 auto 0 auto; width:11px }.helpbox .layer		{ display:block; background:black; color:white; font-size:11px; opacity:0.7; box-shadow:0px 1px 5px rgba(0, 0, 0, 0.9) }.helpbox .layer		{ display:block; text-transform:none; padding:3px 6px; font-weight:bold }</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.popup 					{ padding:0; background-color:#EEE; border:1px solid black; display:block; position:fixed; left:50%; margin-left:-300px; width:700px; }.popup h1				{ cursor:default; font-size:11px; font-weight: bold; margin:0; padding: 2px 0 2px 18px; background:#3e5b96; color:white; border-bottom:1px solid black }#nmodalOverlay					{background-color: white; height:100%; width:100%; position:fixed; left:0; top:0}.popup .modal.close a		{display: none}.popup .modal.close			{width:16px; height:14px; position:absolute; top:2px; right:2px; background:url(/staticb9fb8d1bfc5560658755f90eb3680c3b47f50f17/js/img/jquery.nmodal.png) }.popup .modal.close.down	{background-position:0 -14px;}.popup .modal.comment		{ position:absolute; top:2px; right:25px }.popup .modal.comment a		{ color:white; text-decoration:none }.popup .modal.comment a:hover	{ text-decoration:underline }.popup div.modal.close	{ top:2px; right:2px }.popup .buttons .button	{ width:80px;  }.popup .help			{ background:white; font-size:11px; margin:0; padding:10px; font-weight:normal; border-bottom:1px solid #75736e }.popup .data			{ margin:10px 10px 40px 10px }.popup .data			{ zoom:1 }.popup .data:after		{ display:block; clear:both; content:'.'; visibility:hidden; height:0 }.popup.generic								{ margin-left:-200px; top:30%; width:400px; }.popup.generic .data						{ margin:10px 10px 40px 10px }.popup.generic .data .details				{ display:none }.popup.generic .data .details .text			{ display:block; padding:6px 0 5px 0 }.popup.generic .buttons						{ text-align:center }.popup.generic .buttons input.button		{ float:none }.popup.generic .data .messages .icon		{ float:left; display:block; width:32px; height:32px; background:url(/staticb9fb8d1bfc5560658755f90eb3680c3b47f50f17/js/img/jquery.nmodal.png) }.popup.generic .data .text					{ margin-left:45px }.popup.generic .data .expand .icon			{ float:left; display:block; width:14px; height:14px; background:url(/staticb9fb8d1bfc5560658755f90eb3680c3b47f50f17/js/img/jquery.nmodal.png) -18px -14px }.popup.generic .data .expand .label			{  }.popup.generic .data .expand .label:hover	{ text-decoration:underline; cursor:pointer }.popup.generic .data .expand.expanded .icon	{ background-position: -18px -1px }.popup.generic.exception .item.buttons input.button		{ width:auto }.popup.generic.exception .item.buttons input.button.OK	{ width:80px }.popup.generic .data > .messages			{ zoom:1 }.popup.generic .data > .messages:after		{ display:block; clear:both; content:'.'; visibility:hidden; height:0; line-height:0 }.popup.generic.info .data .messages .icon				{ background-position: 0px -32px }.popup.generic.warn .data .messages .icon				{ background-position: 0px -64px }.popup.generic.error .data .messages .icon			{ background-position: 0px -96px }.popup.generic.query .data .messages .icon			{ background-position: 0px -224px }.popup.generic.error.notfound				{}.popup.nformerror				{ top:30% }.popup.nformerror .help			{ height:20px; background:white; font-size:11px; margin:0; padding:10px; font-weight:normal; border-bottom:1px solid #75736e }.popup.nformerror ul			{ padding-left:5px }.popup.nformerror ul li			{ font-size:11px }.popup .item.buttons 			{position:absolute; bottom:0; right:0; margin:0; padding:0 }.popup .item.buttons button	{ padding:0; border:none }.popup .item.buttons button:active	{ padding-right:0 }.popup .item.buttons input.button,.popup .item.buttons a.button,.popup .item.buttons button.button,.popup .item.buttons span.button	{margin:0 5px 5px 0px; float:right}.popup .item.buttons span.button,.popup .item.buttons a.button		{ white-space:nowrap; overflow:hidden }</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.popup							{ top:25% }</style><style class="darkreader darkreader--sync" media="screen"></style>
+	<link href="Epitech%20Intra_files/style.css" media="" rel="stylesheet" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<!--[if IE]> <link href="/staticb9fb8d1bfc5560658755f90eb3680c3b47f50f17/style-ie.css" media="screen" rel="stylesheet" type="text/css" ><![endif]-->
+<link href="Epitech%20Intra_files/print.css" media="print" rel="stylesheet" type="text/css">
+<link href="Epitech%20Intra_files/project.css" media="screen" rel="stylesheet" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+	
+<link href="Epitech%20Intra_files/dogEar.css" rel="stylesheet" type="text/css"></head>
+<body id="notfound" cz-shortcut-listen="true">
+	<div id="body-wrapper">
+		<div id="header">
+	<div class="global">
+		<div class="header-wrapper"><form action="" id="search" class="bloc search first-column"><fieldset><input name="q" placeholder="rechercher"></fieldset><span><input type="submit" value="Rechercher"></span></form>
+
+		</div>
+	</div>
+	<div class="intra">
+		<div class="header-wrapper">
+
+			<div class="reserved first-column">
+				<a title="Accueil" href="https://intra.epitech.eu/"><span>Epitech</span></a>
+			</div>
+			<div class="reserved second-column"></div>
+
+						<div id="language">
+				<a href="javascript:" title="Français" class="FR ui-active">
+					<span class="icon"></span>
+					<span class="label">Français</span>
+				</a>
+				<a href="javascript:" title="Anglais" class="EN">
+					<span class="icon"></span>
+					<span class="label">Anglais</span>
+				</a>
+				<a href="javascript:" title="Chinois" class="CN">
+					<span class="icon"></span>
+					<span class="label">Chinois</span>
+				</a>
+				<div class="clear"></div>
+							</div>
+			<div class="bloc second-column" id="identification">
+	<a class="infos" href="https://intra.epitech.eu/user/" data-myaction="user.identification">
+		<span class="picture" style="background: url(&quot;/file/userprofil/miniview/nathan.coquelin@epitech.eu.jpg&quot;) center center no-repeat; --darkreader-inline-bgcolor: rgba(0, 0, 0, 0);" data-darkreader-inline-bgcolor=""></span>
+		<span class="title">
+			<span class="large" title="nathan.coquelin@epitech.eu">Bienvenue, Nathan COQUELIN</span>
+			<span class="small" title="Nathan COQUELIN">nathan.coquelin@epitech.eu</span>
+		</span>
+	</a>
+	<div class="menu">
+		<span class="city">Ville: Rennes</span>
+		<span class="course">Promo : bachelor</span>
+		<span class="links">
+						<a class="log-out" href="https://intra.epitech.eu/logout">
+				<span class="label">déconnexion</span>
+			</a>
+					</span>
+	</div>
+</div>
+						<div id="notification">
+	<div class="dropdown rdv">
+		<a href="javascript:" title="Rendez-vous">
+			<span class="icon"></span>
+			<span class="label">Rendez-vous</span>
+			<span class="label mini">R.D.V.</span>
+			<span class="logo"></span>
+		</a>
+	</div>
+	<div class="dropdown message ">
+		<a href="javascript:" title="Vu pour la dernière fois le 16/01/2023, 16h21">
+			<span class="icon"></span>
+			<span class="label"><span class="count">0</span> </span>
+			<span class="label mini"><span class="count">0</span> msg</span>
+			<span class="logo"></span>
+		</a>
+	</div>
+	<div class="dropdown pedago">
+		<a href="javascript:" title="Alertes pédagogiques">
+			<span class="icon"></span>
+			<span class="label">Alertes pédagogiques</span>
+			<span class="label mini">Pédago</span>
+			<span class="logo"></span>
+		</a>
+	</div>
+	<div class="clear"></div>
+</div>
+
+			<div class="navigation">
+				<table>
+					<tbody>
+						<tr>
+							<td class="module">
+								<a class="button" title="modules" href="https://intra.epitech.eu/module/#">
+									<span class="icon">&nbsp;</span>
+									<span class="label">modules</span>
+								</a>
+							</td>
+							<td class="planning">
+								<a class="button" title="Planning" href="https://intra.epitech.eu/planning/#">
+									<span class="icon">&nbsp;</span>
+									<span class="label">Planning</span>
+								</a>
+							</td>
+							<td class="user">
+								<a class="button" title="Profil" href="https://intra.epitech.eu/user/#!/netsoul">
+									<span class="icon">&nbsp;</span>
+									<span class="label">Profil</span>
+								</a>
+							</td>
+							<td class="e-learning">
+								<a class="button" title="E-learning" href="https://intra.epitech.eu/e-learning/#!">
+									<span class="icon">&nbsp;</span>
+									<span class="label">E-learning</span>
+								</a>
+							</td>
+							<td class="administration">
+								<a class="button" title="Administration" href="https://intra.epitech.eu/admin/">
+									<span class="icon">&nbsp;</span>
+									<span class="label">Administration</span>
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+		<div id="main">
+			<div class="main-wrapper">
+				<div id="content">
+	<div class="bloc top">
+		<div class="data">
+			<div class="item title">
+				<h1>Page introuvable</h1>
+			</div>
+			<div class="resume">(404)</div>
+		</div>
+	</div>
+	<div class="bloc main">
+		<div class="data">
+			<div id="visual"></div>
+			<h2>Fichier « projets/B-CPE-110/[B1][CPE]-Antman/Amazon.fr livres, 
+DVD, jeux vidéo, musique, high-tech, informatique, jouets, vêtements, 
+chaussures, sport, bricolage, maison, beauté, puériculture, épicerie et 
+plus encore !_files/sf-1_003.html » non trouvé</h2>
+					</div>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="sticky-push"></div>
+	</div>
+	<div id="footer">
+	<div class="footer-wrapper">
+				<ul class="first">
+									<li><a href="https://altissia.org/fr/epitech/" title="Altissia"><span class="icon"></span><span class="label">Altissia</span></a></li>
+												<li><a href="https://my.epitech.eu/" title="Argonotes (site externe)"><span class="icon"></span><span class="label">Argonotes</span></a></li>
+								</ul>
+						<ul class="second">
+									<li><a href="https://intra.epitech.eu/file/" title="Documents"><span class="icon"></span><span class="label">Documents</span></a></li>
+												<li><a href="https://intra.epitech.eu/stage/#" title="Accèder à vos conventions de stage"><span class="icon"></span><span class="label">Stage</span></a></li>
+												<li><a href="http://epitech.jobteaser.com/fr/users/sign_in" title="Career Development Center"><span class="icon"></span><span class="label">Career Development Center</span></a></li>
+								</ul>
+						<ul class="third">
+									<li><a href="https://eip.epitech.eu/" title="L'intranet des EIP (site externe)"><span class="icon"></span><span class="label">Intra EIP</span></a></li>
+												<li><a href="https://alumni.epitech.eu/" title="Le réseau des anciens (site externe)"><span class="icon"></span><span class="label">Anciens</span></a></li>
+								</ul>
+						<ul class="fourth">
+									<li><a href="http://tekfeed.epitech.eu/" title="International"><span class="icon"></span><span class="label">International</span></a></li>
+								<li><div class="timezone">Timezone: Europe/Paris</div></li></ul>
+			</div>
+</div>
+	<script type="text/javascript">
+    //<!--
+window.route = $.extend(window.route || {}, {"format":"activite\/:scolaryear\/:codemodule\/:codeinstance\/:codeacti\/:project\/:file\/*"});
+window.notetracker = "7ab69ecf68f5a6d4b42d8f";
+window.modules = {"planning_perso":{"nb_max_seat":"500","nb_default_seat":"10","nb_days_maker_event":"7","nb_hours_before_empty_event":"3"},"appointment_slot_duration_max":"1400","appointment_slot_duration_min":"5","user_calendar":true,"conference":true,"internship":true,"banner":true,"forum_last_view":true,"forum_follow":true,"tellmemore":true,"preference":true,"referent":true,"flags":true,"netsoul":true,"token":true,"token_expire":"72","board":{"student":true,"adm":false},"present":true,"ressources":true,"suivi":true,"parcourspedago":true,"rating":true,"max_length_message_global_notification":"1024","max_length_title_global_notification":"128","alert":true,"alerts":true,"partners":true,"scolaryear":2022};
+window.server = {"client_ip":"10.82.0.20","server_ip":"10.82.0.34","timezone":"Europe\/Paris","cdn":{"url":"https:\/\/intra.epitech.eu\/cdn"}};
+window.user = $.extend(window.user || {}, {"login":"nathan.coquelin@epitech.eu","title":"Nathan COQUELIN","picture":"\/file\/userprofil\/nathan.coquelin@epitech.eu.bmp","picture_fun":null,"rights":{},"course":{"code":"bachelor\/classic","title":"bachelor"},"location":"FR\/REN","semester":2});
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-31288187-1', 'intra.epitech.eu');
+  ga('send', 'pageview');    //-->
+</script>
+
+
+<div id="forest-ext-shadow-host"></div></body></html>

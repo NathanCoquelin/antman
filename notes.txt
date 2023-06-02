@@ -1,0 +1,7 @@
+deflate
+huffman
+complexite de lempel ziv
+algorithme de conpression par dictionnaire
+
+
+for images the P3 in the beginning is removed need to readd it in giantman
